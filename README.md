@@ -1,1 +1,3 @@
-docker run --rm -it -v $(pwd):/var/www/html php-with-saxon:php-5.6.25-fpm-saxon-1.0.2 php test.php
+```bash
+$ docker run --rm -it -v $(pwd):/var/www/html rastu/docker-php-with-saxon:latest php test.php
+```
