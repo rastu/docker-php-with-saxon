@@ -12,7 +12,7 @@ It is important to cd into **_dockerfiles/saxon/php-fpm_** otherwise php-fpm can
 
 ```bash
 $ cd dockerfiles/saxon/php-fpm/examples/xslt
-$ docker run --rm -it -v $(pwd):/var/www/html rastu/docker-php-with-saxon:latest php test.php
+$ docker run --rm -it -v $(pwd):/var/www/html rastu/saxon-php-fpm:latest php test.php
 ```
 
 #### Output
