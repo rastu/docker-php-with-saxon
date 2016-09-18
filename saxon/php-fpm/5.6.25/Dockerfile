@@ -7,7 +7,6 @@ ENV LIBSAXON_ARCHITECTURE 64
 ENV LIBSAXON_DOWNLOAD_FILE_NAME libsaxon-HEC-setup$LIBSAXON_ARCHITECTURE-v$LIBSAXON_VERSION
 ENV DEBIAN_FRONTEND noninteractive
 ENV SAXONC_HOME /usr/lib
-#ENV LD_LIBRARY_PATH $SAXONC_HOME/rt/amd64:/usr/lib/jvm/java-7-openjdk-amd64/include/linux:/usr/lib/jvm/java-7-openjdk-amd64/include:$LD_LIBRARY_PATH
 
 RUN apt-get update \
     && apt-get install -y lib32z1 gcc-multilib gcj-jdk unzip openjdk-7-jre-headless \
